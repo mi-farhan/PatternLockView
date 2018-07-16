@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gss.patternlockview.HomeActivity">
+
+
+    <Button
+        android:id="@+id/btn_simInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sim Info"
+        android:layout_marginLeft="90sp"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_readSms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read Sms"
+        android:layout_marginLeft="90sp"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_installAppList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App List"
+        android:layout_marginLeft="90sp"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"/>
+
+
+    <!--<Button
+        android:id="@+id/btn_latlang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Battery Info"
+        android:layout_marginLeft="90sp"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"/>-->
+
+    <Button
+        android:id="@+id/btn_bettryInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Battery Status"
+        android:layout_marginLeft="90sp"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:id="@+id/msgView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="60sp"
+        android:text="@string/msg_location_service_not_started" />
+
+</LinearLayout>
